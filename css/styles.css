@@ -247,7 +247,7 @@ body {
   margin-bottom: 10px;
 }
 .item1 {
-  background-image: url(/home/michira/moringa/art-gallery/image/img1.jpg);
+  background-image: url(../image/img1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
