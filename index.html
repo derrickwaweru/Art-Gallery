@@ -1,0 +1,140 @@
+<DOCTYPE html>
+  <html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , "initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css " rel="stylesheet " type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Art Gallery</title>
+    <meta name="google-signin-client_id" content="AIzaSyBduCqbLyKPbh9QfAGxe_WXCbjFSBd5rzM.apps.googleusercontent.com">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/jquery.slides.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  </head>
+
+  <body>
+    <header class="header-basic-light">
+
+    	<div class="header-limiter">
+
+    		<h1><a href="#">Art<span>Gallery</span></a></h1>
+
+    		<nav>
+    			<a href="#">Home</a>
+    			<a href="#">Exhibits</a>
+    			<a href="gallery.html">Gallery</a>
+    			<a href="#">Contact Us</a>
+          <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    		</nav>
+    	</div>
+    </header>
+
+    <div class="container">
+      <div class="header">
+        <h3>Gallery Login</h3>
+      </div>
+      <!--html for the log in button  -->
+        <form name="login" onsubmit="return validateForm();" method="post">
+          <ul>
+            <li>Username:<input class="username" type="text" name="username"></li>
+            <li>Password:<input class="password" type="password" name="password"></li>
+          </ul>
+          <input type="button" class="submit" value="log In" name="submit" onclick="validate()">
+        </form>
+      </div>
+
+      <div class="row container">
+
+      </div>
+
+    <div class="container-fluid row">
+      <div class="row1">
+        <div class="item1 col-md-6">
+          <p><span id="itemtitle">Paintings</span></p>
+        </div>
+        <div class="item2 col-md-6">
+          <p><span id="itemtitle">Sculptures</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="row carousel-holder">
+      <div class="rw2">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                  <p><span id="itemtitle">Exhibition</span></p>
+                    <img class="slide-image" src="/home/michira/moringa/art-gallery/image/img1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="slide-image" src="/home/michira/moringa/art-gallery/image/img2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="slide-image" src="/home/michira/moringa/art-gallery/image/img3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="slide-image" src="/home/michira/moringa/art-gallery/image/img4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="slide-image" src="/home/michira/moringa/art-gallery/image/img5.jpg" alt="">
+                </div>
+
+
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+      </div>
+    </div>
+    <div class="row container-fluid">
+      <div class="row3">
+        <div class="item3 col-md-6">
+          <p><span id="itemtitle">Potraits</span></p>
+        </div>
+        <div class="item4 col-md-6">
+          <p><span id="itemtitle">Popular Items</span></p>
+        </div>
+      </div>
+    </div>
+
+      <footer>
+        <div class="wrapper">
+          <p class="copyright_text">&copy;Copyright 2017 Art Gallery.<br/>designed and developed by Team Marvel</p>
+
+          <nav>
+            <ul class="social">
+              <li>
+                <a href="https://www.twitter.com"><img src="image/facebook.png"></li>
+              <li>
+                <a href="https://www.facebook.com"><img src="image/twitter.png"></li>
+              <li>
+                <a href="https://www.linkedin.com"><img src="image/linkedin.png"></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+
+
+  </body>
+
+  </html>

@@ -1,0 +1,373 @@
+.header-basic-light{
+	padding: 20px 40px;
+	box-sizing:border-box;
+	box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+	height: 80px;
+	background-color: #fff;
+}
+
+.header-basic-light .header-limiter {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+.header-basic-light .header-limiter h1{
+	float: left;
+	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+}
+
+.header-basic-light .header-limiter h1 span {
+	color: #5383d3;
+}
+
+/* The header links */
+
+.header-basic-light .header-limiter a {
+	color: #5c616a;
+	text-decoration: none;
+}
+
+.header-basic-light .header-limiter nav{
+	font:15px Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	float: right;
+}
+
+.header-basic-light .header-limiter nav a{
+	display: inline-block;
+	padding: 0 5px;
+	opacity: 0.9;
+	text-decoration:none;
+	color: #5c616a;
+	line-height:1;
+}
+
+.header-basic-light .header-limiter nav a.selected {
+	background-color: #86a3d5;
+	color: #ffffff;
+	border-radius: 3px;
+	padding:6px 10px;
+}
+
+/* Making the header responsive. */
+
+@media all and (max-width: 600px) {
+
+	.header-basic-light {
+		padding: 20px 0;
+		height: 85px;
+	}
+
+	.header-basic-light .header-limiter h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header-basic-light .header-limiter nav {
+		line-height: 1;
+		float:none;
+	}
+
+	.header-basic-light .header-limiter nav a {
+		font-size: 13px;
+	}
+
+}
+
+/* === Slider Section === */
+body {
+      -webkit-font-smoothing: antialiased;
+      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #232525;
+      padding-top:0px;
+    }
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  </style>
+  <!-- End SlidesJS Optional-->
+
+  <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+  <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+
+ /* ====   ==== */
+
+//body
+.header {
+  background-color: #5554FF;
+  padding-left: 600px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 200px;
+  font-weight: 400;
+  font-family: monospace;
+  color: yellowgreen;
+}
+.nomaree {
+  margin-left: 300px;
+
+}
+.row1 {
+  padding-bottom: 30px;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+.rw2 {
+  width: 600px;
+  height: auto;
+  margin-left: 400px;
+  margin-top: 30px;
+}
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+.row3 {
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+.item1 {
+  background-image: url(/home/michira/moringa/art-gallery/image/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 50px;
+  text-align: center;
+  height: 500px;
+  width: 550px;
+}
+#itemtitle {
+  color: gold;
+  font-family: Century Schoolbook L;
+  font-size: 30px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+  text-align: center !important;
+}
+.item2 {
+  background-image: url(/home/michira/moringa/art-gallery/image/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 50px;
+  text-align: center;
+  height: 500px;
+  width: 550px;
+}
+.item3 {
+  background-image: url(/home/michira/moringa/art-gallery/image/img4.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding-bottom: 50px;
+  text-align: center;
+  height: 500px;
+  width: 550px;
+  margin: 10px;
+}
+.item4 {
+  background-image: url(/home/michira/moringa/art-gallery/image/img5.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding-bottom: 50px;
+  text-align: center;
+  height: 500px;
+  width: 550px;
+  overflow-y: hidden;
+  margin: 10px;
+}
+.item1:hover, .item2:hover, .item3:hover, .item4:hover, .rw2:hover {
+  background-color: sepia;
+  opacity: 0.8;
+}
+.banner {
+  margin-top: 1500px;
+}
+
+/*footer*/
+
+#login{
+  position:absolute;
+  top:50%;
+  left:50%;
+}
+#login h2{
+  text-align:center;
+  color:white;
+  font-family:sans-serif;
+  font-size:35px;
+}
+.max{
+  background-image: url(../images/beach.jpg);
+}
+
+footer {
+    padding-bottom: 50px;
+    background-color:#ccc;
+    width: 100%;
+    text-shadow: 0 1px 0px #fff;
+    background-image: url(/home/michira/moringa/artgallery/image/beach.jpg);
+  }}
+/*#footer_container {
+  max-width: 940px;
+  height: 100px;
+  margin: 0 auto;
+}*/
+
+.social {
+  list-style-type: none;
+}
+.social li a {
+  font-family:sans-serif;
+  font-weight:400;
+  color:#fff;
+  display:inline;
+  float:right
+}
+.social  li a:hover {
+ color: #FFF;
+ background-color:#eee;
+ text-decoration: none;
+}
+
+/*.social li  {
+  color: #a3a3a3;
+  display: inline;
+  font-size: 24px;
+  padding: 1px;
+  text-decoration: none;
+  float: right;
+}*/
+
+.copyright_text {
+  font-weight: bold;
+  float: left;
+  text-transform: uppercase;
+  color:#fff;
+  text-decoration:none;
+}
