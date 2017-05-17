@@ -269,7 +269,7 @@ body {
   text-align: center !important;
 }
 .item2 {
-  background-image: url(/home/michira/moringa/art-gallery/image/img2.jpg);
+  background-image: url(../image/img2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -279,7 +279,7 @@ body {
   width: 550px;
 }
 .item3 {
-  background-image: url(/home/michira/moringa/art-gallery/image/img4.jpg);
+  background-image: url(../image/img4.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -290,7 +290,7 @@ body {
   margin: 10px;
 }
 .item4 {
-  background-image: url(/home/michira/moringa/art-gallery/image/img5.jpg);
+  background-image: url(../image/img5.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -331,7 +331,7 @@ footer {
     background-color:#ccc;
     width: 100%;
     text-shadow: 0 1px 0px #fff;
-    background-image: url(/home/michira/moringa/artgallery/image/beach.jpg);
+    background-image: url(../image/beach.jpg);
   }}
 /*#footer_container {
   max-width: 940px;
